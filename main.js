@@ -19,7 +19,7 @@ function validateForm(e) {
     e.preventDefault();
 
     if(nameIn.value === '' || descriptionIn.value === ''){
-        alert("Rellena el form prro");
+        alert("Debe llenar todos los campos");
         return;
     }
 
